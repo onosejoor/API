@@ -1,14 +1,14 @@
 # API-Auth
 
 ## Description
-<h3>This is an API-Authenticatin page which i used to grasp the knowledge about API authentication 😎.</h3>
+<h3>This is an API-Authenticatin page which i used to grasp the knowledge about API authentication .</h3>
 
 # Screen-Shot
 ![API-Auth](https://github.com/onosejoor/API-Auth/assets/156698969/f6c6a53a-2d25-43d1-98eb-5b6daeeb268e)
 
 ## Github Repo
 
-### <a href="https://github.com/onosejoor/API-Auth">Github Repo Link</a>
+### <a href="https://github.com/onosejoor/API">Github Repo Link</a>
 
 ## To Run using Node
 
