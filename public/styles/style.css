@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    flex-direction: column;
+    background: linear-gradient(300deg, yellow, yellowgreen, red);
+    background-size: 180% 180%;
+    animation: animation 3s ease infinite;
+}
+
+@keyframes animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a>button {
+    padding: 20%;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    row-gap: 20px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.no {
+    background-color: blue;
+    width: 100px;
+}
+
+.basic {
+    background-color: green;
+    width: 150px;
+}
+
+.key {
+    background-color: yellow;
+    width: 100px;
+    color: black;
+}
+
+.bearer {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.res {
+    background-color: white;
+    padding: 2%;
+    font-weight: 600;
+    border-radius: 5px;
+}

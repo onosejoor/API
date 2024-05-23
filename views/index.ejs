@@ -1,0 +1,23 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <title>API Auth</title>
+  </head>
+  <body>
+    <a href="/noAuth"><button type="submit" class="no">No Auth</button></a>
+
+    <a href="/basic"><button type="submit" class="basic">Basic Auth</button></a>
+
+    <a href="/key"><button type="submit" class="key">API key</button></a>
+
+    <a href="/token"
+      ><button type="submit" class="bearer">Bearer Token</button></a
+    >
+
+    <% if (locals.content) { %>
+    <div class="res"><p><%= content %></p></div>
+    <% } %>
+  </body>
+</html>
